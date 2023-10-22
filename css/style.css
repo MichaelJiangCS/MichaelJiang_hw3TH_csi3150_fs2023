@@ -54,22 +54,21 @@ textarea{
 
 /*first page*/
 #firstPage{
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/hd-winter-background-de92z4mif4030pys.jpeg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    height: 10vh;
-    padding:500px;
+
 }
 #logoContainer{
-text-align: center;
-margin-top: -28%;
-margin-bottom: 5%;
+    text-align: center;
+    padding : 5%;
 }
 #titleContainer{
-    display: flex;
+
     text-align: center;
-    margin-left: 29%;
     padding: 50px;
     
 }
@@ -78,37 +77,46 @@ margin-bottom: 5%;
     margin-top: 10%;
 }
 #intro{
-    margin-left: 43%;
-    
+    text-align: center;
 }
 
 /*second page*/
 #secondPage{
-    column-count: 2;
-    column-gap: 100px;
-    column-rule: 2px ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/secondPageImage.jpeg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    padding:400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
 }
 
+#secondLeft{
+    float: left;
+    width: 40%;
+    margin-bottom: 30%;
+    margin-left: 5%;
+}
 #secondRight{
-    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    width: 20%;
+    margin-bottom: 10%;
 }
-#secondButton{
-    text-align: right;
-}
+
 
 /*third page*/
 #thirdPage{
-
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/thirdPageImage.jpeg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    padding: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
