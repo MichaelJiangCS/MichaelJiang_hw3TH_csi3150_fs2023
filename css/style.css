@@ -1,0 +1,283 @@
+*{
+    border: 1;
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin-right: 0%;
+    margin-bottom: 0;
+    
+}
+ul{
+    list-style: none;
+}
+h1{
+    color:darkgoldenrod;
+    font-size: 120px;
+    font: sans-serif;
+}
+h2{
+    color: gold;
+    font-size: 70px;
+    font: sans-serif;
+}
+h3{
+    color: gold;
+    font-size: 60px;
+    font: sans-serif;
+}
+h4{
+    color: whitesmoke;
+    font-size: 30px;
+    font: sans-serif;
+}
+p{
+    color:rgb(251, 241, 228);
+    font-size:20px;
+    font: sans-serif;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+textarea{
+    background: transparent;
+    color :aliceblue;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:darkgray;
+    margin-bottom: 3%;
+    opacity: 0.5;
+    resize: none;
+}
+
+/*first page*/
+#firstPage{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/hd-winter-background-de92z4mif4030pys.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 10vh;
+    padding:500px;
+}
+#logoContainer{
+text-align: center;
+margin-top: -28%;
+margin-bottom: 5%;
+}
+#titleContainer{
+    display: flex;
+    text-align: center;
+    margin-left: 29%;
+    padding: 50px;
+    
+}
+#firstPageArrow{
+    margin-left: 48%;
+    margin-top: 10%;
+}
+#intro{
+    margin-left: 43%;
+    
+}
+
+/*second page*/
+#secondPage{
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 2px ;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/secondPageImage.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:400px;
+}
+
+#secondRight{
+    display: inline-block;
+}
+#secondButton{
+    text-align: right;
+}
+
+/*third page*/
+#thirdPage{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/thirdPageImage.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+#thirdTitle{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.container{
+    position: relative;
+    float: left;
+    width: calc(
+      31% - 10px
+    ); 
+    padding: 5px;
+    margin-left: 20px;
+}
+.whole::after{
+    clear: both;
+    display: table;
+}
+.container .content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#thirdButton{
+    margin-top: 50%;
+    margin-left : 45%;
+}
+
+/*forth page*/
+#forthPage{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/forthPageImage.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+}
+#forthLeft{
+    float: left;
+    width: 40%;
+    margin-bottom: 30%;
+    margin-left: 5%;
+}
+#forthRight{
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+/*fifth page*/
+
+#fifthPage{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/fifthPageImage.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+.circleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 100px 100px, #0c0c0c, #181819);
+    margin: 80px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:rgb(251, 241, 228);
+    font: sans-serif;
+}
+
+/*sixth page*/
+#sixthPage{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/sixthPageImage.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sixContainer{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+}
+.sixContainer img{
+    border-radius: 50%;
+    width: 30%;
+    height: auto;
+    background-color: grey;
+    margin-bottom: 10%;
+    margin-top: 20%;
+}
+
+
+/*seventh page*/
+#imageContainer{
+    display: flex;
+    
+}
+#leftArrow{
+    position: absolute;
+    left: 0%;
+    margin-top: -9%;
+}
+#rightArrow{
+    position: absolute;
+    right: 0%;
+    margin-top: -9%;
+}
+
+
+
+/*last page*/
+#page_footer{
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 2px ;
+    column-width: auto;
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../media/image/seventhPageImage.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:500px;
+}
+
+#footerTitle{
+    margin-top: -10%;
+}
+#iconContainer{
+    display: inline-block;
+    margin-top: 3%;
+}
+#textAreaAndButton{
+    margin-bottom: 10%;
+}
+#submitButton{
+    background-color: gold;
+    height:40px;
+    width: 90px;
+    display: block;
+}
