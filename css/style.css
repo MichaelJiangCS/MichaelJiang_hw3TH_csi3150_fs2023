@@ -281,24 +281,23 @@ textarea{
     
 }
 
-#footerTitle{
+.footerLeft{
     float: left;
-    width: 40%;
-    margin-top: 1%;
-    margin-left: 1%;
+    width: 30%;
+    margin-bottom: -20%;
 }
-#iconContainer{
-   
-}
-#textAreaAndButton{
+.footerRight{
+
+    margin-left: 50%;
+    margin-right: 5%;
     float: left;
-    width: 40%;
-    margin-bottom: 30%;
-    margin-left: 5%;
+    width: 30%;
+    margin-bottom: 10%;
 }
+
 #submitButton{
     background-color: gold;
     height:40px;
     width: 90px;
-    display: block;
+    
 }
