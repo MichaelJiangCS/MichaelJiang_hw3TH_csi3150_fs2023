@@ -51,6 +51,12 @@ textarea{
     opacity: 0.5;
     resize: none;
 }
+#submitButton:hover{
+    background-color: blanchedalmond;
+}
+i:hover{
+    background-color:silver;
+}
 
 /*first page*/
 #firstPage{
@@ -106,6 +112,7 @@ textarea{
     float: left;
     width: 40%;
     margin-bottom: 10%;
+    
 }
 
 
